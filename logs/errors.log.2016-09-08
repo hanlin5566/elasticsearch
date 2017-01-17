@@ -1,0 +1,91 @@
+[2016-09-08 09:30:32,166]-INFO  (PluginsService.java:180)|[Quentin Beck] modules [], plugins [], sites []
+[2016-09-08 09:30:46,452]-INFO  (TransportClientNodesService.java:383)|[Quentin Beck] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [0] timed out after [5004ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-08 09:30:46,583]-ERROR (ESClient.java:51)|create indices error:NoNodeAvailableException[None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}]]
+[2016-09-08 09:30:51,524]-INFO  (TransportClientNodesService.java:383)|[Quentin Beck] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [1] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-08 09:33:54,744]-INFO  (PluginsService.java:180)|[Sean Garrison] modules [], plugins [], sites []
+[2016-09-08 09:34:17,435]-ERROR (ESClient.java:51)|create indices error:NoNodeAvailableException[None of the configured nodes are available: [{#transport#-1}{192.168.9.108}{192.168.9.108:9200}]]
+[2016-09-08 09:50:34,732]-INFO  (PluginsService.java:180)|[Mandrill] modules [], plugins [], sites []
+[2016-09-08 09:50:57,181]-ERROR (ESClient.java:52)|create indices error:NoNodeAvailableException[None of the configured nodes are available: [{#transport#-1}{192.168.9.108}{192.168.9.108:9200}]]
+[2016-09-08 09:55:44,257]-INFO  (PluginsService.java:180)|[Jude the Entropic Man] modules [], plugins [], sites []
+[2016-09-08 09:56:06,876]-ERROR (ESClient.java:52)|create indices error:NoNodeAvailableException[None of the configured nodes are available: [{#transport#-1}{192.168.9.108}{192.168.9.108:9300}]]
+[2016-09-08 10:07:28,079]-INFO  (PluginsService.java:180)|[Gosamyr] modules [], plugins [], sites []
+[2016-09-08 10:07:29,679]-ERROR (ESClient.java:52)|create indices error:org.elasticsearch.action.ActionRequestValidationException: Validation Failed: 1: source is missing;
+[2016-09-08 10:08:59,631]-INFO  (PluginsService.java:180)|[Jackson Arvad] modules [], plugins [], sites []
+[2016-09-08 10:09:25,405]-INFO  (ESClient.java:52)|org.elasticsearch.action.ActionRequestValidationException: Validation Failed: 1: source is missing;
+[2016-09-08 10:09:33,402]-ERROR (ESClient.java:53)|create indices error:org.elasticsearch.action.ActionRequestValidationException: Validation Failed: 1: source is missing;
+[2016-09-08 10:10:48,605]-INFO  (ESClient.java:52)|org.elasticsearch.action.ActionRequestValidationException: Validation Failed: 1: source is missing;
+[2016-09-08 10:10:48,856]-ERROR (ESClient.java:53)|create indices error:
+org.elasticsearch.action.ActionRequestValidationException: Validation Failed: 1: source is missing;
+	at org.elasticsearch.action.ValidateActions.addValidationError(ValidateActions.java:29)
+	at org.elasticsearch.action.index.IndexRequest.validate(IndexRequest.java:222)
+	at org.elasticsearch.action.TransportActionNodeProxy.execute(TransportActionNodeProxy.java:46)
+	at org.elasticsearch.client.transport.support.TransportProxyClient$1.doWithNode(TransportProxyClient.java:58)
+	at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:212)
+	at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)
+	at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:288)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:86)
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:56)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:64)
+	at com.hanson.elasticsearch.client.ESClient.create(ESClient.java:48)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:14)
+[2016-09-08 10:22:06,236]-INFO  (PluginsService.java:180)|[Night Nurse] modules [], plugins [], sites []
+[2016-09-08 10:22:13,049]-ERROR (ESClient.java:51)|create indices error:
+org.elasticsearch.action.ActionRequestValidationException: Validation Failed: 1: source is missing;
+	at org.elasticsearch.action.ValidateActions.addValidationError(ValidateActions.java:29)
+	at org.elasticsearch.action.index.IndexRequest.validate(IndexRequest.java:222)
+	at org.elasticsearch.action.TransportActionNodeProxy.execute(TransportActionNodeProxy.java:46)
+	at org.elasticsearch.client.transport.support.TransportProxyClient$1.doWithNode(TransportProxyClient.java:58)
+	at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:212)
+	at org.elasticsearch.client.transport.support.TransportProxyClient.execute(TransportProxyClient.java:55)
+	at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:288)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:359)
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:86)
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:56)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:64)
+	at com.hanson.elasticsearch.client.ESClient.create(ESClient.java:47)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:14)
+[2016-09-08 10:28:32,067]-INFO  (PluginsService.java:180)|[Midnight] modules [], plugins [], sites []
+[2016-09-08 10:28:46,744]-ERROR (ESClient.java:51)|create indices error:
+java.lang.IllegalArgumentException: The number of object passed must be even but was [1]
+	at org.elasticsearch.action.index.IndexRequest.source(IndexRequest.java:451)
+	at org.elasticsearch.action.index.IndexRequestBuilder.setSource(IndexRequestBuilder.java:186)
+	at com.hanson.elasticsearch.client.ESClient.create(ESClient.java:47)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:23)
+[2016-09-08 10:31:26,487]-INFO  (PluginsService.java:180)|[Bantam] modules [], plugins [], sites []
+[2016-09-08 12:21:26,927]-INFO  (PluginsService.java:180)|[Famine] modules [], plugins [], sites []
+[2016-09-08 13:47:21,420]-INFO  (PluginsService.java:180)|[Aelfyre Whitemane] modules [], plugins [], sites []
+[2016-09-08 13:47:25,088]-ERROR (ESClient.java:57)|create indices error:
+MapperParsingException[Field [_id] is a metadata field and cannot be added inside a document. Use the index API request parameters.]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObject(DocumentParser.java:204)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:122)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:309)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:529)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:506)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:215)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:224)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:158)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:66)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:639)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:279)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:271)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-09-08 16:22:45,598]-INFO  (PluginsService.java:180)|[Monstra] modules [], plugins [], sites []
+[2016-09-08 16:45:44,345]-INFO  (PluginsService.java:180)|[Speed Demon] modules [], plugins [], sites []
+[2016-09-08 16:48:09,645]-INFO  (PluginsService.java:180)|[Wildside] modules [], plugins [], sites []

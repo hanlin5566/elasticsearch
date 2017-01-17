@@ -1,0 +1,2207 @@
+[2016-09-13 10:28:50,397]-INFO  (PluginsService.java:180)|[Firestar] modules [], plugins [], sites []
+[2016-09-13 10:28:52,746]-ERROR (ESClient.java:61)|create indices error:
+[hanson] IndexAlreadyExistsException[already exists]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:138)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:468)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:772)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-09-13 10:28:52,776]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,778]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,778]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,780]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,780]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,784]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,785]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,785]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,786]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,787]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,787]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,788]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,800]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,801]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,803]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,820]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,835]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,836]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,836]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,837]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,837]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,838]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,838]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,839]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,840]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,841]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,842]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,842]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,843]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,844]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,844]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,845]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,845]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,846]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,846]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,847]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,847]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,848]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,848]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,849]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,851]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,852]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,853]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,854]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,855]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,858]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,863]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,864]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,864]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,865]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,866]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,867]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,867]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,868]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,869]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,869]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,870]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,870]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,897]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,899]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,900]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,901]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,901]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,902]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,904]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,905]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,907]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,908]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,909]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,910]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,911]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,911]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,912]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,913]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,914]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,916]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,917]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,917]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,918]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,919]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,920]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,921]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,921]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,922]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,923]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,924]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,925]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,925]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,926]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,927]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,928]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,928]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,929]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,930]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,931]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,931]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,932]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,933]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,934]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,934]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,937]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,937]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,938]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,939]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,940]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,941]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,942]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,943]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,943]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,944]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,946]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,947]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,948]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,949]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,950]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,951]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,953]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,954]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,955]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,956]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,956]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,957]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,958]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,959]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,959]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,960]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,961]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,961]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,962]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,963]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,964]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,965]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,974]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,975]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,976]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,976]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,977]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,978]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,979]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,980]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,981]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,983]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,984]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,985]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,986]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,986]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,987]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,988]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,988]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,989]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,991]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,992]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,993]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,994]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:52,999]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,000]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,001]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,002]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,002]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,003]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,004]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,004]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,005]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,005]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,009]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,010]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,011]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,012]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,013]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,013]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,014]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,020]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,022]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,023]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,024]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,024]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,028]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,029]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,030]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,030]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,031]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,032]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,033]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:28:53,034]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getString(JSONObject.java:657)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:24)
+[2016-09-13 10:29:35,560]-INFO  (PluginsService.java:180)|[Carmilla Black] modules [], plugins [], sites []
+[2016-09-13 10:29:37,009]-ERROR (ESClient.java:61)|create indices error:
+[hanson] IndexAlreadyExistsException[already exists]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:138)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:468)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:772)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-09-13 10:29:37,016]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,019]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,020]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,021]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,022]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,023]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,024]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,025]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,025]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,026]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,027]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,027]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,028]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,029]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,032]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,042]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,048]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,050]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,051]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,052]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,053]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,053]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,054]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,056]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,057]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,059]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,060]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,062]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,063]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,064]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,066]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,067]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,068]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,069]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,070]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,071]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,072]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,073]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,073]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,074]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,075]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,077]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,078]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,079]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,080]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,081]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,082]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,083]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,085]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,087]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,088]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,090]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,091]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,092]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,093]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,095]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,096]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,097]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,097]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,108]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,109]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,110]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,111]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,112]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,112]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,113]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,114]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,115]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,116]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,117]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,119]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,120]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,121]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,121]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,122]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,123]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,124]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,125]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,126]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,126]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,127]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,128]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,129]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,130]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,131]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,132]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,132]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,133]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,134]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,135]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,135]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,137]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,137]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,138]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,139]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,140]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,141]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,142]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,143]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,144]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,144]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,145]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,146]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,147]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,148]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,149]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,149]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,150]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,151]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,152]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,153]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,153]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,154]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,155]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,155]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,156]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,157]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,158]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,158]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,159]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,160]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,160]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,161]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,161]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,162]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,163]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,163]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,164]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,165]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,166]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,166]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,167]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,170]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,172]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,173]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,174]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,175]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,175]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,176]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,177]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,178]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,179]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,180]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,180]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,181]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,181]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,182]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,182]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,182]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,183]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,184]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,185]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,186]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,187]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,188]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,189]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,191]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,192]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,193]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,193]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,194]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,195]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,195]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,196]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,200]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,201]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,202]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,202]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,203]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,204]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,204]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,205]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,207]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,208]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,208]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,208]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,209]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,210]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,210]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,211]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,212]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,212]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,212]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:29:37,213]-ERROR (ESClient.java:93)|create mapping error:
+org.json.JSONException: JSONObject["id"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:661)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:89)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:25)
+[2016-09-13 10:30:30,832]-INFO  (PluginsService.java:180)|[Caliban] modules [], plugins [], sites []
+[2016-09-13 10:30:32,220]-ERROR (ESClient.java:61)|create indices error:
+[hanson] IndexAlreadyExistsException[already exists]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:138)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:468)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:772)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-09-13 15:20:39,398]-INFO  (PluginsService.java:180)|[Killpower] modules [], plugins [], sites []
+[2016-09-13 15:20:40,869]-ERROR (ESClient.java:61)|create indices error:
+[hanson] IndexAlreadyExistsException[already exists]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:138)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:468)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:772)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-09-13 15:20:40,871]-ERROR (ESClient.java:87)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getInt(JSONObject.java:538)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:83)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:21)
+[2016-09-13 15:36:46,878]-INFO  (PluginsService.java:180)|[Julie Power] modules [], plugins [], sites []
+[2016-09-13 15:37:17,016]-ERROR (ESClient.java:61)|create indices error:
+[hanson] IndexAlreadyExistsException[already exists]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:138)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:468)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:772)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-09-13 15:37:30,056]-ERROR (ESClient.java:87)|create mapping error:
+org.json.JSONException: JSONObject["id"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at org.json.JSONObject.getInt(JSONObject.java:538)
+	at com.hanson.elasticsearch.client.ESClient.put(ESClient.java:83)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:21)
+[2016-09-13 15:38:28,672]-INFO  (PluginsService.java:180)|[Vincente] modules [], plugins [], sites []
+[2016-09-13 15:38:30,315]-ERROR (ESClient.java:61)|create indices error:
+[hanson] IndexAlreadyExistsException[already exists]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:138)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:468)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:772)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-09-13 15:38:30,476]-ERROR (ESClient.java:75)|create mapping error:
+java.lang.IllegalArgumentException: failed to generate simplified mapping definition
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.buildFromSimplifiedDef(PutMappingRequest.java:204)
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.source(PutMappingRequest.java:152)
+	at com.hanson.elasticsearch.client.ESClient.createMapping(ESClient.java:70)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:21)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.buildFromSimplifiedDef(PutMappingRequest.java:187)
+	... 3 more
+[2016-09-13 15:38:47,011]-INFO  (PluginsService.java:180)|[Ultragirl] modules [], plugins [], sites []
+[2016-09-13 15:38:48,496]-ERROR (ESClient.java:61)|create indices error:
+[hanson] IndexAlreadyExistsException[already exists]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:138)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:468)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:772)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-09-13 15:38:48,552]-ERROR (ESClient.java:75)|create mapping error:
+java.lang.IllegalArgumentException: failed to generate simplified mapping definition
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.buildFromSimplifiedDef(PutMappingRequest.java:204)
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.source(PutMappingRequest.java:152)
+	at com.hanson.elasticsearch.client.ESClient.createMapping(ESClient.java:70)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:21)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.buildFromSimplifiedDef(PutMappingRequest.java:187)
+	... 3 more
+[2016-09-13 15:40:12,573]-INFO  (PluginsService.java:180)|[Geirrodur] modules [], plugins [], sites []
+[2016-09-13 15:52:20,425]-ERROR (ESClient.java:75)|create mapping error:
+java.lang.IllegalArgumentException: failed to generate simplified mapping definition
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.buildFromSimplifiedDef(PutMappingRequest.java:204)
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.source(PutMappingRequest.java:152)
+	at com.hanson.elasticsearch.client.ESClient.createMapping(ESClient.java:70)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:21)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.buildFromSimplifiedDef(PutMappingRequest.java:187)
+	... 3 more
+[2016-09-13 15:55:31,627]-INFO  (PluginsService.java:180)|[Kaine] modules [], plugins [], sites []
+[2016-09-13 15:55:33,631]-ERROR (ESClient.java:61)|create indices error:
+[hanson] IndexAlreadyExistsException[already exists]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:138)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:468)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:772)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-09-13 15:58:52,542]-INFO  (PluginsService.java:180)|[William Baker] modules [], plugins [], sites []
+[2016-09-13 15:58:54,231]-ERROR (ESClient.java:78)|create mapping error:
+java.lang.IllegalArgumentException: failed to generate simplified mapping definition
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.buildFromSimplifiedDef(PutMappingRequest.java:204)
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.source(PutMappingRequest.java:152)
+	at com.hanson.elasticsearch.client.ESClient.createMapping(ESClient.java:73)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:21)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.buildFromSimplifiedDef(PutMappingRequest.java:187)
+	... 3 more
+[2016-09-13 15:59:41,088]-INFO  (PluginsService.java:180)|[American Ace] modules [], plugins [], sites []
+[2016-09-13 16:25:21,797]-INFO  (PluginsService.java:180)|[Deacon Frost] modules [], plugins [], sites []
+[2016-09-13 16:28:07,228]-INFO  (PluginsService.java:180)|[Klaw] modules [], plugins [], sites []
+[2016-09-13 16:31:45,728]-INFO  (PluginsService.java:180)|[Steve Rogers] modules [], plugins [], sites []
+[2016-09-13 16:32:08,389]-ERROR (ESClient.java:80)|create mapping error:
+java.lang.IllegalArgumentException: failed to generate simplified mapping definition
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.buildFromSimplifiedDef(PutMappingRequest.java:204)
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.source(PutMappingRequest.java:152)
+	at com.hanson.elasticsearch.client.ESClient.createMapping(ESClient.java:75)
+	at com.hanson.elasticsearch.BootStart.main(BootStart.java:16)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.buildFromSimplifiedDef(PutMappingRequest.java:187)
+	... 3 more

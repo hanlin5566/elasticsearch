@@ -1,0 +1,1981 @@
+[2016-09-07 16:42:06,469]-INFO  (PluginsService.java:180)|[The Symbiote] modules [], plugins [], sites []
+[2016-09-07 16:42:19,441]-INFO  (TransportClientNodesService.java:383)|[The Symbiote] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [0] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:42:24,470]-INFO  (TransportClientNodesService.java:383)|[The Symbiote] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [1] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:42:34,487]-INFO  (TransportClientNodesService.java:383)|[The Symbiote] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [2] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:42:44,505]-INFO  (TransportClientNodesService.java:383)|[The Symbiote] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [3] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:42:54,515]-INFO  (TransportClientNodesService.java:383)|[The Symbiote] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [4] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:43:04,049]-ERROR (ESClient.java:52)|create indices error:NoNodeAvailableException[None of the configured nodes are available: [{#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}]]
+[2016-09-07 16:43:04,532]-INFO  (TransportClientNodesService.java:383)|[The Symbiote] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [5] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:44:15,319]-INFO  (PluginsService.java:180)|[Dittomaster] modules [], plugins [], sites []
+[2016-09-07 16:44:32,040]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [0] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:44:37,069]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [1] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:44:47,088]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [2] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:44:57,101]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [3] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:45:07,115]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [4] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:45:17,142]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [5] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:45:27,156]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [6] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:45:37,168]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [7] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:45:47,184]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [8] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:45:57,204]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [9] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:46:02,262]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+NodeDisconnectedException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] disconnected]
+[2016-09-07 16:46:12,273]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [11] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:46:22,294]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [12] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:46:32,312]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [13] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:46:42,337]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [14] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:46:52,357]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [15] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:47:02,378]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [16] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:47:12,389]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [17] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:47:22,405]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [18] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:47:32,425]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [19] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:47:42,439]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [20] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:47:52,451]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [21] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:48:21,600]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [22] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:48:31,620]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [23] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:48:41,635]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [24] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:48:51,651]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [25] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:49:01,663]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [26] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:49:11,682]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [27] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:49:21,699]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [28] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:49:31,715]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [29] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:49:41,730]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [30] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:49:51,744]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [31] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:50:01,762]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [32] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:50:11,777]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [33] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:50:21,791]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [34] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:50:31,804]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [35] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:50:41,826]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [36] timed out after [5008ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:50:51,849]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [37] timed out after [5004ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:51:01,863]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [38] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:51:11,878]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [39] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:51:21,898]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [40] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:51:31,914]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [41] timed out after [5003ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:51:41,945]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [42] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:51:51,957]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [43] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:52:01,970]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [44] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:52:11,991]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [45] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:52:22,002]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [46] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:52:32,021]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [47] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:52:42,039]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [48] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:52:52,056]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [49] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:53:02,068]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [50] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:53:12,085]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [51] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:53:22,100]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [52] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:53:32,116]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [53] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:53:42,135]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [54] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:53:52,152]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [55] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:54:02,168]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [56] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:54:12,181]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [57] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:54:22,201]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [58] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:54:32,214]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [59] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:54:42,232]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [60] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:54:52,253]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [61] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:55:02,274]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [62] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:55:12,316]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [63] timed out after [5013ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:55:22,329]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [64] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:55:32,346]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [65] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:55:42,363]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [66] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:55:52,384]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [67] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:56:02,401]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [68] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:56:12,414]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [69] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:56:22,430]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [70] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:56:32,448]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [71] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:56:42,461]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [72] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:56:52,476]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [73] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:57:02,494]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [74] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:57:12,507]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [75] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:57:22,524]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [76] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:57:32,548]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [77] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:57:42,562]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [78] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:57:52,577]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [79] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:58:02,593]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [80] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:58:12,607]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [81] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:58:22,627]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [82] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:58:32,644]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [83] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:58:42,659]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [84] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:58:52,671]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [85] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:59:02,692]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [86] timed out after [5004ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:59:12,704]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [87] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:59:22,719]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [88] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:59:32,736]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [89] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:59:42,752]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [90] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 16:59:52,773]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [91] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:00:02,794]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [92] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:00:12,809]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [93] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:00:22,823]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [94] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:00:32,841]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [95] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:00:42,858]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [96] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:00:52,883]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [97] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:01:02,900]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [98] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:01:12,916]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [99] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:01:22,934]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [100] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:01:32,950]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [101] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:01:42,965]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [102] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:01:52,978]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [103] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:02:02,995]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [104] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:02:13,008]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [105] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:02:23,023]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [106] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:02:33,039]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [107] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:02:43,059]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [108] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:02:53,074]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [109] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:03:03,092]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [110] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:03:13,108]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [111] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:03:23,122]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [112] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:03:33,136]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [113] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:03:43,149]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [114] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:03:53,164]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [115] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:04:03,183]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [116] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:04:13,200]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [117] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:04:23,217]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [118] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:04:33,231]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [119] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:04:43,246]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [120] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:04:53,261]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [121] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:05:03,275]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [122] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:05:13,295]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [123] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:05:23,308]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [124] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:05:33,323]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [125] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:05:43,339]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [126] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:05:53,355]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [127] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:06:03,372]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [128] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:06:13,388]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [129] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:06:23,410]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [130] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:06:33,426]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [131] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:06:43,443]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [132] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:06:53,455]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [133] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:07:03,472]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [134] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:07:13,487]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [135] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:07:23,503]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [136] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:07:33,527]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [137] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:07:43,541]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [138] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:07:53,557]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [139] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:08:03,570]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [140] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:08:13,585]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [141] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:08:23,600]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [142] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:08:33,617]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [143] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:08:43,632]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [144] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:08:53,646]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [145] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:09:03,669]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [146] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:09:13,684]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [147] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:09:23,703]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [148] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:09:33,719]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [149] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:09:43,732]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [150] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:09:53,750]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [151] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:10:03,764]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [152] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:10:13,779]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [153] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:10:23,794]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [154] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:10:33,807]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [155] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:10:43,822]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [156] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:10:53,835]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [157] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:11:03,850]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [158] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:11:13,866]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [159] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:11:23,883]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [160] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:11:33,910]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [161] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:11:43,925]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [162] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:11:53,944]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [163] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:12:03,959]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [164] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:12:13,974]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [165] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:12:23,988]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [166] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:12:34,004]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [167] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:12:44,020]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [168] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:12:54,034]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [169] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:13:04,049]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [170] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:13:14,069]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [171] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:13:24,085]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [172] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:13:34,102]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [173] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:13:44,115]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [174] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:13:54,130]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [175] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:14:04,143]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [176] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:14:14,158]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [177] timed out after [5003ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:14:24,173]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [178] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:14:34,189]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [179] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:14:44,205]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [180] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:14:54,221]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [181] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:15:04,237]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [182] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:15:14,255]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [183] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:15:24,269]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [184] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:15:34,286]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [185] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:15:44,300]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [186] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:15:54,317]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [187] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:16:04,335]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [188] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:16:14,349]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [189] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:16:24,362]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [190] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:16:34,377]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [191] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:16:44,391]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [192] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:16:54,405]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [193] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:17:04,419]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [194] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:17:14,433]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [195] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:17:24,448]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [196] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:17:34,462]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [197] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:17:44,475]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [198] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:17:54,488]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [199] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:18:04,505]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [200] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:18:14,519]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [201] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:18:24,537]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [202] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:18:34,555]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [203] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:18:44,569]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [204] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:18:54,587]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [205] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:19:04,603]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [206] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:19:14,620]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [207] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:19:24,634]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [208] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:19:34,648]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [209] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:19:44,662]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [210] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:19:54,679]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [211] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:20:04,696]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [212] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:20:14,711]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [213] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:20:24,729]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [214] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:20:34,746]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [215] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:20:44,763]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [216] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:20:54,777]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [217] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:21:04,792]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [218] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:21:14,808]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [219] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:21:24,825]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [220] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:21:34,839]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [221] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:21:44,852]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [222] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:21:54,868]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [223] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:22:04,884]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [224] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:22:14,897]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [225] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:22:24,911]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [226] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:22:34,928]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [227] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:22:44,946]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [228] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:22:54,962]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [229] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:23:04,978]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [230] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:23:14,993]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [231] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:23:25,009]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [232] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:23:35,023]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [233] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:23:45,052]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [234] timed out after [5013ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:23:55,068]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [235] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:24:05,081]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [236] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:24:15,096]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [237] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:24:25,111]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [238] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:24:35,123]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [239] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:24:45,138]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [240] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:24:55,151]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [241] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:25:05,165]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [242] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:25:15,179]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [243] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:25:25,195]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [244] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:25:35,211]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [245] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:25:45,226]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [246] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:25:55,242]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [247] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:26:05,261]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [248] timed out after [5004ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:26:15,278]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [249] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:26:25,293]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [250] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:26:35,306]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [251] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:26:45,322]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [252] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:26:55,334]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [253] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:27:05,352]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [254] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:27:15,367]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [255] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:27:25,383]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [256] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:27:35,398]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [257] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:27:45,411]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [258] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:27:55,425]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [259] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:28:05,439]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [260] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:28:15,455]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [261] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:28:25,469]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [262] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:28:35,483]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [263] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:28:45,501]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [264] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:28:55,519]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [265] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:29:00,549]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+NodeDisconnectedException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] disconnected]
+[2016-09-07 17:29:10,562]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [267] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:29:20,581]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [268] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:29:30,594]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [269] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:29:40,608]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [270] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:29:50,622]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [271] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:30:00,653]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [272] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:30:10,666]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [273] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:30:20,680]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [274] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:30:30,697]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [275] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:30:40,713]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [276] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:30:50,728]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [277] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:31:00,747]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [278] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:31:10,764]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [279] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:31:20,777]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [280] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:31:30,792]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [281] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:31:40,807]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [282] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:31:50,830]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [283] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:32:00,846]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [284] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:32:10,861]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [285] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:32:20,875]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [286] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:32:30,889]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [287] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:32:40,912]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [288] timed out after [5008ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:32:50,926]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [289] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:33:00,968]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [290] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:33:10,984]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [291] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:33:21,000]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [292] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:33:31,014]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [293] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:33:41,030]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [294] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:33:51,047]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [295] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:34:01,059]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [296] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:34:11,073]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [297] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:34:21,086]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [298] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:34:31,100]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [299] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:34:41,116]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [300] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:34:51,131]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [301] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:35:01,147]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [302] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:35:11,162]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [303] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:35:21,178]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [304] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:35:31,195]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [305] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:35:41,211]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [306] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:35:51,227]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [307] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:36:01,243]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [308] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:36:11,257]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [309] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:36:21,272]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [310] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:36:31,286]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [311] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:36:41,301]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [312] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:36:51,315]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [313] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:37:01,331]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [314] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:37:11,350]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [315] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:37:21,365]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [316] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:37:31,385]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [317] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:37:41,399]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [318] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:37:51,417]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [319] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:38:01,431]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [320] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:38:11,445]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [321] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:38:21,458]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [322] timed out after [5001ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:38:31,473]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [323] timed out after [5000ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-09-07 17:38:41,489]-INFO  (TransportClientNodesService.java:383)|[Dittomaster] failed to get node info for {#transport#-1}{127.0.0.1}{localhost/127.0.0.1:9200}, disconnecting...
+ReceiveTimeoutTransportException[[][localhost/127.0.0.1:9200][cluster:monitor/nodes/liveness] request_id [324] timed out after [5002ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
